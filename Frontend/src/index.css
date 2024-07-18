@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 100%;
+  background-color: #e0dbce  ;
+}
+
+.title{
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+
+.slidebar a{
+  padding-bottom: 12px ;
+  font-size: 1rem;
+}
+
+.btn-active {
+  right: 0;
+}
+
+.Button-Nyala .KTidur{
+  background-color: #1E1000;
+  color: #E0DBCE;
+}
+.Button-Mati .KMandi{
+  background-color: #1E1000;
+  color: #E0DBCE;
+}
+
+.judul{
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+  font-size: 47px;
+}
+
+.isi{
+  font-weight: 400;
+  font-family: "lato", sans-serif;
+  font-size: 18px;
+}
+
+.perabotan .isi{
+  font-size: 17px;
+  line-height:18px;
+}
+
+.fill{
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+td {
+  padding-top: 10px;
+}
+
